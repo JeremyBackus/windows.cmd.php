@@ -1,6 +1,6 @@
 <?php
 ini_set("error_reporting", 0);
-ini_set('display_errors', false);
+ini_set('display_errors', true);
 
 session_start();
 if (!$_SERVER["QUERY_STRING"]){ unset($_SESSION["window_output"]); }
