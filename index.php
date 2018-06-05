@@ -20,7 +20,7 @@ function WindowsCmd($cmd){
 <head>
 	<meta charset="utf-8">
 	<title>
-		CMD
+		CMD 3 Test
 	</title>
 	<style>
 	body{background-color:black; color:white; font-family:monospace; font-size:12px;}
