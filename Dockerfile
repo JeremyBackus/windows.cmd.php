@@ -1,3 +1,3 @@
-FROM mattrayner/lamp
+FROM php
 
 # add your tools here
