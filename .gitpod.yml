@@ -2,4 +2,3 @@ image:
   file: Dockerfile
 ports:
 - port: 80
-onOpen: open-preview
